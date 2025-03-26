@@ -1,5 +1,6 @@
 # PhsicoGPTCR
 A GPT-based Deep Learning Model for TCR-T Design and Cross-Reactivity Prediction
+
 🚀 Introduction
 
 This repository provides a GPT-based deep learning model capable of predicting T-cell receptor (TCR) Complementarity Determining Region 3 (CDR3) sequences from given peptide-MHC class I complexes. The model integrates physicochemical properties, positional information, amino acid embeddings, and cross-attention mechanisms, achieving accurate and biologically relevant predictions. It is particularly useful for designing TCR-T cell therapies and assessing T-cell cross-reactivity between antigens.
@@ -20,6 +21,7 @@ This repository provides a GPT-based deep learning model capable of predicting T
     Training Data: Curated TCR-peptide-MHC binding data from VDJdb, a well-established database of antigen-specific TCR sequences.
 
 📥 Installation Guide
+
 1. Requirements
 
     Python (>=3.7 recommended)
@@ -29,16 +31,14 @@ This repository provides a GPT-based deep learning model capable of predicting T
     tqdm
 
 2. Install Dependencies
-bash
 
-pip install torch numpy pandas tqdm
+    pip install torch numpy pandas tqdm
 
-3. Run the Model
+4. Run the Model
 
 Execute the prediction script as follows:
-bash
 
-python generate_candidates.py
+    python generate_candidates.py
 
 ⚙️ Usage Example
 
