@@ -4,6 +4,7 @@ A GPT-based Deep Learning Model for TCR-T Design and Cross-Reactivity Prediction
 🚀 Introduction
 
 This repository provides a GPT-based deep learning model capable of predicting T-cell receptor (TCR) Complementarity Determining Region 3 (CDR3) sequences from given peptide-MHC class I complexes. The model integrates physicochemical properties, positional information, amino acid embeddings, and cross-attention mechanisms, achieving accurate and biologically relevant predictions. It is particularly useful for designing TCR-T cell therapies and assessing T-cell cross-reactivity between antigens.
+
 🌟 Key Features
 
     Advanced GPT Architecture: Incorporates physicochemical properties, positional embeddings, amino acid fusion encoders, and cross-attention mechanisms.
